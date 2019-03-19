@@ -20,10 +20,11 @@ $(() => {
 
   let counterContainer = $('#counter')
 
-  let iceCream = $('<div />').addClass('ice-cream')
 
   // Build an ice cream cone here...
 
-  counterContainer.append(iceCream)
+  // let iceCream = $('<div />').addClass('ice-cream')
+
+  // counterContainer.append(iceCream)
 
 })
