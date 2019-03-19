@@ -1,0 +1,21 @@
+@import "defaultColors.css";
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title {
+  align-self: center;
+}
+
+#title-description {
+  margin-left: 4rem;
+}

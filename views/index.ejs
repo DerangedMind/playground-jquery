@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="css/index.css" >
+    <script type="text/javascript" src="js/colorSelector.js">
+
+    </script>
+    <title>jQuery Playground</title>
+  </head>
+  <body>
+    <main class="mv4">
+      <header class="flex-column">
+        <h1 id="title">jQuery Playground</h1>
+        <p id="title-description">This is a place to poke around with jQuery!</p>
+      </header>
+    </main>
+
+    <article>
+      <section class="mh5 mv4">
+        <h2>Click a color and I'll tell you what it is!</h2>
+        <p>The color you selected is...<span id="selected-color"></span></p>
+      </section>
+
+      <section class="flex nowrap">
+        <%- ['blue', 'seafoam', 'yellow', 'pink', 'orange'].map((color, i, arr) => {
+          return `
+            <div id="${color}" class="pointer hide-child flex-center h5 w-100 pg-${color}">
+              <div class="bg-silver ba b--near-black w2 h2 br-100 child"></div>
+            </div>`
+        }).join('') %>
+      </section>
+    </article>
+  </body>
+</html>

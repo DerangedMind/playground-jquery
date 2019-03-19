@@ -1,0 +1,50 @@
+body {
+  background-color: #3399dd;
+  color: #222;
+  font-family: helvetica;
+}
+
+:root {
+  --pg-blue: #0f01b0;
+  --pg-yellow: #fff73f;
+  --pg-seafoam: #3fe6d6;
+  --pg-orange: #ff6700;
+  --pg-pink: #eaabf3;
+
+  --pg-off-white: #eeeec0;
+  --pg-chocolate: #330c0b;
+  --pg-strawberry-pink: #fc5a8d;
+  --pg-pistachio-green: #93c572;
+}
+
+.pg-blue {
+  background-color: var(--pg-blue);
+}
+.pg-yellow {
+  background-color: var(--pg-yellow);
+}
+.pg-seafoam {
+  background-color: var(--pg-seafoam);
+}
+.pg-orange {
+  background-color: var(--pg-orange);
+}
+.pg-pink {
+  background-color: var(--pg-pink);
+}
+
+#vanilla {
+  background-color: var(--pg-off-white);
+}
+
+#chocolate {
+  background-color: var(--pg-chocolate);
+}
+
+#strawberry-pink {
+  background-color: var(--pg-strawberry-pink);
+}
+
+#pistachio-green {
+  background-color: var(--pg-pistachio-green);
+}
