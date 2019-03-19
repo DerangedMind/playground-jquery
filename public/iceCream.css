@@ -1,0 +1,33 @@
+#counter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ice-cream {
+  height: 16rem;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.scoop {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.cone {
+  width: 0;
+  height: 0;
+  margin-top: -2rem;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid orange;
+}
+
+.flavour {
+  text-align: center;
+  margin-top: 1rem;
+}
