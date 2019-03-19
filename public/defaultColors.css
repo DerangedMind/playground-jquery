@@ -1,0 +1,23 @@
+:root {
+  --pg-blue: #0f01b0;
+  --pg-yellow: #fff73f;
+  --pg-seafoam: #3fe6d6;
+  --pg-orange: #ff6700;
+  --pg-pink: #eaabf3;
+}
+
+.pg-blue {
+  background-color: var(--pg-blue);
+}
+.pg-yellow {
+  background-color: var(--pg-yellow);
+}
+.pg-seafoam {
+  background-color: var(--pg-seafoam);
+}
+.pg-orange {
+  background-color: var(--pg-orange);
+}
+.pg-pink {
+  background-color: var(--pg-pink);
+}
