@@ -11,4 +11,5 @@ npm install
 ## Load dev server
 
 With nodemon: `npm run dev`
+
 Without nodemon: `npm start` or `node server.js`
